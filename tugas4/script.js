@@ -1,6 +1,6 @@
 // Fungsi untuk memuat data dari API
 function fetchData() {
-    fetch('URL_API_YANG_ANDA_DAPATKAN_DARI_GOOGLE_APPS_SCRIPT')
+    fetch('https://script.google.com/d/1lOtJmSjQXz_Anrc5qC1WjT2nTOy9Ub3girWJvMMsIY3FILBXJ0k2s707/edit?usp=sharing')
       .then(response => response.json())
       .then(data => {
         // Menampilkan data dalam elemen HTML
